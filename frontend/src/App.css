@@ -1,0 +1,94 @@
+/* Estilos generales de la app (fondo oscuro y centrado) */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Estilo para el formulario centrado, con fondo claro */
+form {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  color: #333;
+  font-family: Arial, sans-serif;
+  transition: box-shadow 0.3s ease;
+}
+
+form:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+}
+
+/* Encabezado dentro del formulario */
+form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #007bff;
+  font-weight: 700;
+}
+
+/* Inputs y textarea */
+input, textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 12px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+  color: #333;
+}
+
+input:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px #007bffaa;
+  background-color: #f9faff;
+}
+
+/* Botón */
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Animación logo manteniendo original */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-bottom: 40px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

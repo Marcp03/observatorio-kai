@@ -1,0 +1,11 @@
+   {
+       "build": {
+           "env": {
+               "DATABASE_URL": "postgresql://postgres:gLpoSIHezWimNcVJgATlAznphLjeCLTS@caboose.proxy.rlwy.net:49409/railway"
+           }
+       },
+       "start": {
+           "command": "node server.js"
+       }
+   }
+   
